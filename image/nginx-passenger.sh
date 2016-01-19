@@ -8,7 +8,7 @@ set -x
 if [[ "$PASSENGER_ENTERPRISE" ]]; then
 	apt-get install -y nginx-extras passenger-enterprise
 else
-	apt-get install -y nginx-extras passenger
+	apt-get install -y nginx-extras passenger --force-yes
 fi
 cp /pd_build/config/30_presetup_nginx.sh /etc/my_init.d/
 cp /pd_build/config/nginx.conf /etc/nginx/nginx.conf
