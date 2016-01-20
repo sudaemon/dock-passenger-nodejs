@@ -30,14 +30,14 @@ fi
 	# Rowan's Redis PPA
 	# OpenJDK 8 PPA
 
-# apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
+ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
 # 	C3173AA6 \
-# 561F9B9CAC40B2F7 \
+	561F9B9CAC40B2F7 #\
 # 	5862E31D \
 # 	DA1A4A13543B466853BAF164EB9B1D8886F44E2A
 
 
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 561F9B9CAC40B2F7
+# apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 561F9B9CAC40B2F7
 
 
 	## ------- NodeSource's Node.js repository
