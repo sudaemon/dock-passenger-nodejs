@@ -3,6 +3,8 @@ MAINTAINER	sudaemon <sudaemon@ya.ru>
 
 ADD		. /pd_build
 
+RUN   ls -al /pd_build
+
 RUN		/pd_build/upgradePackages.sh
 
 RUN		/pd_build/install.sh
