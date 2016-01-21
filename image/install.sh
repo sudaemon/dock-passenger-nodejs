@@ -3,6 +3,8 @@ set -e
 source /pd_build/buildconfig
 set -x
 
+/pd_build/upgrade-packages.sh
+
 /pd_build/enable_repos.sh
 /pd_build/prepare.sh
 /pd_build/utilities.sh
